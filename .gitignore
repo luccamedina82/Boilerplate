@@ -1,0 +1,34 @@
+# Dependencias
+node_modules/
+.pnpm-store/
+
+# Builds y Distribuibles
+dist/
+build/
+.next/
+out/
+
+# Turborepo
+.turbo/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Variables de Entorno (¡SEGURIDAD!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs
+.vscode/
+.idea/
+*.tsbuildinfo
+
+# Sistemas Operativos
+.DS_Store
+Thumbs.db
